@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.nav-item-button) {
+    background-color: rgb(202, 168, 55);
+  }
+  
+  .nav-item{
+    margin-top: 15px;
+    font-size: large;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    
+  }
+  .float{
+    border-radius: 10px;
+    margin-left: 970px;
+    background-color: rgb(32, 118, 32);
+    border: 1px solid #111;
+    margin-top: 15px;
+    font-size: large;
+    font-size: 18px;
+  }
+  .float a{
+    color: rgb(248, 247, 247);
+  }
+  .float:hover{
+    background-color: rgb(109, 109, 24);
+  }
+  section{
+    position: relative;
+    background-color: rgb(23, 16, 33);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+  }
+  section .text-margin{
+    position: absolute;
+    background: url(wave.png);
+    height: 143px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .text{
+    
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 57px;
+    color: white;
+  }
+  .search{
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .search:hover{
+    background-color: wheat;
+  }
+  input{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 40px;
+    margin-top: 170px;
+    font-size: 20px;
+  }
+  input:hover{
+    outline: 4px solid rgb(234, 166, 65);
+  }
+.inter{
+    
+    color: rgb(31, 8, 8);
+}
+#float{
+    
+   
+    float: right;
+    margin-right: 120px;
+    border: 6px solid black;
+}
+.head-inter{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.learn button{
+    background-color: rgb(155, 40, 40);
+    margin-left: 110px;
+    padding: 10px 14px;
+    font-size: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.learn button:hover{
+    background-color: rgb(183, 35, 35);
+}
+.learn-V button{
+    margin-left: 110px;
+    padding: 10px 14px;
+    font-size: 22px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(191, 191, 69);
+}
+.learn-V button:hover{
+    background-color: rgb(200, 200, 39);
+}
+.learn-E button{
+    margin-left: 110px;
+    padding: 10px 75px;
+    font-size: 22px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(32, 118, 32);
+}
+.learn-E button:hover{
+    background-color: rgb(50, 139, 50);
+}
+
+.head-inter #head-inter{
+    float: right;
+    font-size: 42px;
+    margin-right: 100px;
+    text-transform: lowercase;
+}
+.social{
+    background-color: #b98d72;
+    height: 480px;
+    margin-top: 300px;
+}
+.head-social{
+    font-size: 40px;
+    margin-left: 50px;
+    
+    text-transform: uppercase;
+}
+.learn-social button{
+    background-color: rgb(155, 40, 40);
+    margin-left: 110px;
+    padding: 10px 55px;
+    font-size: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.learn-social button:hover{
+    background-color: rgb(183, 35, 35);
+}
+.social-V button{
+    margin-left: 110px;
+    padding: 10px 55px;
+    font-size: 22px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(62, 183, 112);
+}.social-V button:hover{
+    background-color: rgb(44, 204, 110);;
+}
+.social-E button{
+    margin-left: 110px;
+    padding: 10px 80px;
+    font-size: 22px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(32, 118, 32);
+}
+.social-E button:hover{
+    background-color: rgb(50, 139, 50)
+}
+.head-social #head-inter{
+    float: right;
+    font-size: 32px;
+    margin-right: 100px;
+    text-transform: lowercase;
+}
+.math{
+    background-color: #ae4951;
+    height: 480px;
+}
+.info{
+    background-color: #333;
+    height: 480px;
+    color: white;
+}
+.foot{
+    height: 180px;
+    background-color: rgb(29, 9, 9);
+    
+}

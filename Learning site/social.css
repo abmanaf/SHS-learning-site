@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover:not(.nav-item-button) {
+    background-color: rgb(202, 168, 55);
+  }
+  .nav-item{
+    margin-top: 15px;
+    font-size: large;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    
+  }
+  .float{
+    border-radius: 10px;
+    margin-left: 970px;
+    background-color: rgb(52, 17, 206);
+    border: 1px solid #111;
+    margin-top: 15px;
+    font-size: large;
+    font-size: 18px;
+  }
+  .float a{
+    color: rgb(248, 247, 247);
+  }
+  .float:hover{
+    background-color: rgb(109, 109, 24);
+  }
+  ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #111;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    margin-top: 100px;
+  }
+  .second-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 156px;
+  }
+  
+  #active .active {
+    text-transform: capitalize;
+    color: #000;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+  }
+  
+  
+  
+  #active .active:hover {
+    background-color: #f1f1f1;
+    color: #000;
+    
+  }
+  .fixed{
+    margin: 0;
+    padding: 0;
+    width: 83%;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 156px;
+    color: white;
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #807459;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .differ {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content .differ:hover {
+    background-color: #f1f1f1
+}
+  
+.dropbtn:hover .dropdown-content {
+    display: block;
+    width: 200px;
+    margin-left: 0;
+  }
+  
+  .dropbtn:hover  .dropdown-content-1{
+    background-color: #333;
+  }
+  .dropbtn-1 {
+    background-color: #333;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn-1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  #f9f9f9
+  
+  .dropdown-content-1 .differ {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-1 .differ:hover {
+    background-color: #f1f1f1
+}
+  
+.dropbtn-1:hover .dropdown-content {
+    display: block;
+    width: 200px;
+    margin-left: 0;
+  }
+ .form{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 3px solid white;
+ } 
+  
+  
